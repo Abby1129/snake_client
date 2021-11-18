@@ -1,6 +1,7 @@
 // Stores the active TCP connection object.
 let connection;
 
+//establishes our UI (user interface) where players can send keyboard commands
 const setupInput = function (conn) {
   connection = conn;
 

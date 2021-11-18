@@ -5,7 +5,7 @@ const net = require("net");
 const connect = function () {
   const conn = net.createConnection({
     host: IP,
-    port: PORT, // PORT number here,
+    port: PORT,
   });
 
   // interpret incoming data as text
